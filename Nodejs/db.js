@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/curdDB',(err)=>{
     if(!err)
     {
-        console.log('connection successful :-) ')
+        console.log('connection successful :-) ');
 
     }
     else
